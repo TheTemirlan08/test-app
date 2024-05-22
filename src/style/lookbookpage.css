@@ -1,13 +1,17 @@
 .form {
-    padding: 20px 30px;
-}
+    padding: 20px 80px;
+} 
 
 .input__form {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    flex-direction: column; 
+    padding-top:50px ;
+    gap: 40px;
+} 
+.input__reg{
+    font-size: 50px;
 }
-
 .input__desc {
     height: 30px;
     width: 400px;

@@ -64,6 +64,7 @@ body {
   justify-content: center;
   align-items: center; 
   height: 763px;
+  width: 100%;
   background: url(../pictures/1\ 1.jpg) no-repeat;
   background-size: cover; 
   padding-left: 909px;
@@ -79,9 +80,10 @@ body {
 }
 
 .btn {
-  width: 151;
-  height: 41;
+  width: 147px;
+  height: 35px;
   background-color: black;
+  border: none;
   margin-right: 20px;
 }
 

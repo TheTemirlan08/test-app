@@ -25,10 +25,11 @@ export const LookBook = () => {
     return (
         <div className="container">
             <form className="input__form" onSubmit={handleClick}>
-                <input className="input__desc" placeholder="Введите имя" type="text" value={name} onChange={(e) => setName(e.target.value)} />
-                <input className="input__desc" placeholder="Введите email" type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
-                <input className="input__desc" placeholder="Введите пароль" type="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
-                <button className="form__btn">Зарегестрироваться</button>
+                <p className="input__reg">Регистрация</p>
+                <input className="input__desc" placeholder="имя" type="text" value={name} onChange={(e) => setName(e.target.value)} />
+                <input className="input__desc" placeholder="email" type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
+                <input className="input__desc" placeholder="пароль" type="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
+                <button className="form__btn">Войти</button>
             </form>
             <Timer />
         </div>

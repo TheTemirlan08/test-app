@@ -13,7 +13,7 @@ export const Timer = () => {
 
     return (
         <div>
-            <h3>Timer</h3>
+            <h3>Сколько секунд открыт компонент:</h3>
             <p>{seconds}</p>
         </div>
     )
